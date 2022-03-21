@@ -25,5 +25,5 @@ jobs:
       run: dotnet test --no-build --verbosity normal
     - name: Publish
       run: dotnet publish workshop2_vs.sln
-#   - name: Easy Zip Files
-#      uses: vimtor/action-zip@v1 
+    - name: Easy Zip Files
+      uses: vimtor/action-zip@v1 
