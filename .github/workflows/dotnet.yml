@@ -33,3 +33,12 @@ jobs:
       with:
         name: my-artifact
         path: workshop2_vs.sln
+        
+    - uses: actions/checkout@v2
+
+    - name: Upload a file to Google Drive
+      uses: willo32/google-drive-upload-action@v1
+      with:
+        target: my-artifact.zip
+        credentials: ${{ secrets.luongphuckhang200300hiie@gmail.com }}
+        parent_folder_id: 1X7Wc9EU3vLPA5uh1YWSsyWuWTqXTVgXx
