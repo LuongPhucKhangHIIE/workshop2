@@ -40,5 +40,5 @@ jobs:
       uses: willo32/google-drive-upload-action@v1
       with:
         target: my-artifact.zip
-        credentials: ${{ secrets.luongphuckhang200300hiie@gmail.com }}
+        credentials: ${{ secrets.https://drive.google.com/drive/folders/1X7Wc9EU3vLPA5uh1YWSsyWuWTqXTVgXx?usp=sharing }}
         parent_folder_id: 1X7Wc9EU3vLPA5uh1YWSsyWuWTqXTVgXx
